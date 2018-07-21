@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+.ui.large.form{
+    background-color:#a2d9f3;
+    margin:15px auto;
+    width:950px;
+    height: 265px;
+}
+.four.wide.column.center.aligned.votes{
+    margin:0 auto;
+    width:950px;
+}
