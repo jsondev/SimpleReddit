@@ -7,5 +7,8 @@
 }
 .four.wide.column.center.aligned.votes{
     margin:0 auto;
-    width:950px;
+}
+.ui.statistic{
+    background-color: #e6e6e6;
+    padding: 10px;
 }
