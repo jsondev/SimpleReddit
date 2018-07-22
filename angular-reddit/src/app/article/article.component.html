@@ -10,17 +10,18 @@
 </div>
 <div class="twelve wide column">
   <a href="{{article.link}}" class="ui large header">
-    {{article.title}}
+    {{article.title}} <br>
+    <div class="meta"><small>({{article.domain()}})</small></div>
   </a>
   <ul class="ui big horizontal list voters">
     <li class="item">
-      <a href (click)='voteUp()'>
+      <a href class='positive ui button'(click)='voteUp()'>
         <i class="arrow up icon"></i>
         upvote
       </a>
     </li>
     <li class="item">
-      <a href (click)='voteDown()'>
+      <a href class='negative ui button '(click)='voteDown()'>
         <i class="arrow down icon"></i>
         downvote
       </a>
